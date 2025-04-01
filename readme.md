@@ -2,7 +2,7 @@
 Stream The Vote is an interactive website that helps fellow citizens monitor drop box activity to ensure election integrity. 
 
 ### Development Notes
-<a href='StreamTheVote2024.com'>StreamTheVote2024.com</a> is a Flutter WebAssembly app that pulls location data from a REST API backend. Android, Windows, and Linux (Raspberry Pi) versions have been tested and make the same API calls as the WebAssembly app. Zooming around the map by clicking map locations is an excellent experience on a 120Hz display.
+https://streamthevote2024.com is a Flutter WebAssembly app that pulls location data from a REST API backend. Android, Windows, and Linux (Raspberry Pi) versions have been tested and make the same API calls as the WebAssembly app. Zooming around the map by clicking map locations is an excellent experience on a 120Hz display.
 
 ### Structure
 The application uses the provider package for state management. It is designed to handle mouse, keyboard, and touch input equally well. The experience is especially nice on touch-first devices. Four API calls are made to collect states, counties, cities, and locations. 
